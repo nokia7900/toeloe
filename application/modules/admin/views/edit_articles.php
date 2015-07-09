@@ -2,7 +2,7 @@
 	<h2>Sửa bài viết</h2>
 
 	<div id="new-post">
-		<form method="post" action="<?php echo base_url().'admin/articles/edit_articles/'.$articles['news_id']; ?>" enctype="multipart/form-data">
+		<form method="post" action="<?php echo base_url('admin/articles/edit_articles/'.$articles['news_id']); ?>" enctype="multipart/form-data">
 		<table border="0" cellpadding="0" cellspacing="0">
 			<tr>
 				<td id="post-title"><label>Tiêu đề bài viết</label><br /><input type="text" name="post_title" value="<?php echo set_value('post_title', $articles['news_title']); ?>" /> <?php echo form_error('post_title', '<span>', '</span>'); ?></td>

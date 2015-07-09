@@ -2,7 +2,7 @@
     <h2>Sửa danh mục</h2>
 
     <div id="new-post">
-        <form method="post" action="<?php echo base_url().'admin/category/edit_category/'.$category['cat_id']; ?>">
+        <form method="post" action="<?php echo base_url('admin/category/edit_category/'.$category['cat_id']); ?>">
         <table border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td id="post-title"><label>Tên Danh mục</label><br /><input type="text" name="post_title" value="<?php echo set_value('post-title', $category['cat_name']); ?>" /> <?php echo form_error('post_title'); ?><?php if (isset($category_err)) {echo '<span>'.$category_err.'</span>';}; ?></td>

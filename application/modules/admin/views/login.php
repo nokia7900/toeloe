@@ -1,4 +1,4 @@
-<form method="post" action="<?php echo base_url().'admin/auth/login'; ?>">
+<form method="post" action="<?php echo base_url('admin/auth/login'); ?>">
     <div id="login">
         <h2>Đăng nhập hệ thống quản trị</h2>
         <ul id="login-form">

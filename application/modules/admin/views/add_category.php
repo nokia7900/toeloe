@@ -2,7 +2,7 @@
 	<h2>Danh mục mới</h2>
 
     <div id="new-post">
-        <form method="post" action="<?php echo base_url().'admin/category/add_category'; ?>">
+        <form method="post" action="<?php echo base_url('admin/category/add_category'); ?>">
         <table border="0" cellpadding="0" cellspacing="0">
         	<tr>
             	<td id="post-title"><label>Tên Danh mục</label><br /><input type="text" name="post_title" value="<?php echo set_value('post_title'); ?>" /> <?php echo form_error('post_title', '<span>', '</span>'); ?></td>

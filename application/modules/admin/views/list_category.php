@@ -17,8 +17,8 @@
                     <td><a href="#"><?php echo $value['cat_name']; ?></a></td>
                     <td><?php echo $value['cat_status']; ?></td>
                     <td><?php echo date('d/m/Y h:i:s', $value['cat_date']); ?></td>
-                    <td><a href="<?php echo base_url().'admin/category/edit_category/'.$value['cat_id']; ?>">Edit</a></td>
-                    <td><a href="<?php echo base_url().'admin/category/delete_category/'.$value['cat_id']; ?>">Delete</a></td>
+                    <td><a href="<?php echo base_url('admin/category/edit_category/'.$value['cat_id']); ?>">Edit</a></td>
+                    <td><a href="<?php echo base_url('admin/category/delete_category/'.$value['cat_id']); ?>">Delete</a></td>
             </tr>
             <?php endforeach; ?>
         </table>

@@ -2,7 +2,7 @@
 	<h2>Thành viên mới</h2>
 
 	<div id="new-post">
-		<form method="post" action="<?php echo base_url().'admin/auth/add_auth'; ?>">
+		<form method="post" action="<?php echo base_url('admin/auth/add_auth'); ?>">
 		<table border="0" cellpadding="0" cellspacing="0">
 			<tr>
 				<td id="post-title"><label>User Name</label><br /><input type="text" name="post_user" value="<?php echo set_value('post_user'); ?>" /> <?php echo form_error('post_user', '<span>', '</span>'); ?></td>

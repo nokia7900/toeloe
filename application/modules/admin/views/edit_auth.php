@@ -3,7 +3,7 @@
 	<h2>Bài mới</h2>
 
     <div id="new-post">
-        <form method="post" action="<?php echo base_url().'admin/auth/edit_auth/'.$auth['user_id']; ?>">
+        <form method="post" action="<?php echo base_url('admin/auth/edit_auth/'.$auth['user_id']); ?>">
         <table border="0" cellpadding="0" cellspacing="0">
         	<tr>
             	<td id="post-title"><label>User Name</label><br /><input type="text" name="post_user" value="<?php echo set_value('post_user', $auth['user_name']); ?>" /> <?php echo form_error('post_user', '<span>', '</span>'); ?><?php if (isset($user_err)) {echo '<span>'.$user_err.'</span>';}; ?></td>

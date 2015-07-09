@@ -1,5 +1,5 @@
 <div id="main">
-    <h2>Quản lý bài viết <span id="add-post"><a href="<?php echo base_url().'admin/articles/add_articles/' ?>">Viết bài mới</a></span></h2>
+    <h2>Quản lý bài viết <span id="add-post"><a href="<?php echo base_url('admin/articles/add_articles/'); ?>">Viết bài mới</a></span></h2>
 
     <div id="posts">
         <table width="100%" border="0" cellpadding="0" cellspacing="0">

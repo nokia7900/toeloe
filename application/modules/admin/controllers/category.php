@@ -1,7 +1,7 @@
 <?php
 if (!defined('BASEPATH')) exit('No direct script access allowed');
-
-class Category extends CI_Controller {
+include_once(APPPATH.'controllers/admin_controller.php');
+class Category extends Admin_controller {
 
     function __construct() {
         parent::__construct();
